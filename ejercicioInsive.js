@@ -1,3 +1,5 @@
+
+
 function sumaDiagonalesPrincipales(numeroDeLados) {
   if (numeroDeLados % 2 === 0) {
     let sumaTotal = 0;
@@ -23,4 +25,5 @@ function sumaDiagonalesPrincipales(numeroDeLados) {
   }
 }
 
-export default sumaDiagonalesPrincipales;
+//ingresa de qué número de lados es tu cuadrado, por ejemplo si es un cuadrado de 5x5, debes ingresar el 5.
+console.log(sumaDiagonalesPrincipales(5));
